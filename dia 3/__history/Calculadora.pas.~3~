@@ -1,0 +1,86 @@
+unit Calculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.NumberBox;
+
+type
+  TForm2 = class(TForm)
+    BtnCE: TButton;
+    BtnBackSpace: TButton;
+    BtnPorcentagem: TButton;
+    BtnSoma: TButton;
+    BtnSete: TButton;
+    BtnOito: TButton;
+    BtnNove: TButton;
+    BtnMenos: TButton;
+    BtnQuatro: TButton;
+    BtnCinco: TButton;
+    BtnSeis: TButton;
+    BtnMulti: TButton;
+    BtnUm: TButton;
+    BtnDois: TButton;
+    BtnTres: TButton;
+    BtnDiv: TButton;
+    BtnZero: TButton;
+    BtnMaisOuMenos: TButton;
+    BtnVirgula: TButton;
+    BtnIgual: TButton;
+    EditDisplay: TEdit;
+    procedure BtnCEClick(Sender: TObject);
+    procedure BtnBackSpaceClick(Sender: TObject);
+    procedure BtnZeroClick(Sender: TObject);
+    procedure BtnUmClick(Sender: TObject);
+    procedure BtnDoisClick(Sender: TObject);
+    procedure BtnTresClick(Sender: TObject);
+  private
+    { Private declarations }
+    procedure adicionaCaractereNoDisplay(c: char);
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+procedure TForm2.adicionaCaractereNoDisplay(c: char);
+begin
+  EditDisplay.Text := EditDisplay.Text+c;
+end;
+
+procedure TForm2.BtnBackSpaceClick(Sender: TObject);
+begin
+  EditDisplay.Text := copy(EditDisplay.Text, 1, Length(EditDisplay.Text)-1);
+end;
+
+procedure TForm2.BtnCEClick(Sender: TObject);
+begin
+  EditDisplay.Text := '';
+end;
+
+procedure TForm2.BtnDoisClick(Sender: TObject);
+begin
+  adicionaCaractereNoDisplay('2');
+end;
+
+procedure TForm2.BtnTresClick(Sender: TObject);
+begin
+  adicionaCaractereNoDisplay('3');
+end;
+
+procedure TForm2.BtnUmClick(Sender: TObject);
+begin
+      adicionaCaractereNoDisplay('1');
+end;
+
+procedure TForm2.BtnZeroClick(Sender: TObject);
+begin
+  adicionaCaractereNoDisplay('0');
+end;
+
+end.

@@ -8,7 +8,6 @@ uses
 
 type
   TForm2 = class(TForm)
-    NumberBox1: TNumberBox;
   private
     { Private declarations }
   public

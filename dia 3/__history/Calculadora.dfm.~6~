@@ -2,7 +2,6 @@ object Form2: TForm2
   Left = 0
   Top = 0
   ActiveControl = BtnCE
-  BiDiMode = bdLeftToRight
   BorderIcons = [biSystemMenu]
   Caption = 'Calculadora'
   ClientHeight = 332
@@ -14,7 +13,6 @@ object Form2: TForm2
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  ParentBiDiMode = False
   PixelsPerInch = 96
   TextHeight = 13
   object BtnCE: TButton
@@ -42,7 +40,6 @@ object Form2: TForm2
     Height = 49
     Caption = '%'
     TabOrder = 2
-    OnClick = BtnPorcentagemClick
   end
   object BtnSoma: TButton
     Left = 197
@@ -177,7 +174,6 @@ object Form2: TForm2
     Height = 49
     Caption = #177
     TabOrder = 17
-    OnClick = BtnMaisOuMenosClick
   end
   object BtnVirgula: TButton
     Left = 134

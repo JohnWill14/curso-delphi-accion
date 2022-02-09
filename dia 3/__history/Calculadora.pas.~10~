@@ -83,7 +83,6 @@ end;
 procedure TForm2.BtnCEClick(Sender: TObject);
 begin
   limpaDisplay();
-  operacao := '';
 end;
 
 procedure TForm2.BtnCincoClick(Sender: TObject);

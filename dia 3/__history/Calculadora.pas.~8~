@@ -48,7 +48,6 @@ type
     procedure BtnMultiClick(Sender: TObject);
     procedure BtnDivClick(Sender: TObject);
     procedure BtnMaisOuMenosClick(Sender: TObject);
-    procedure BtnPorcentagemClick(Sender: TObject);
   private
     { Private declarations }
     procedure adicionaCaractereNoDisplay(c: char);
@@ -83,7 +82,6 @@ end;
 procedure TForm2.BtnCEClick(Sender: TObject);
 begin
   limpaDisplay();
-  operacao := '';
 end;
 
 procedure TForm2.BtnCincoClick(Sender: TObject);
@@ -130,12 +128,12 @@ begin
       valor := valor/valorDisplay;
     end
     else
-      valor := valorDisplay;
+      valor := valor;
 
 
     EditDisplay.Text := FloatToStr(valor);
     //valor := 0;
-    operacao := '';
+    //operacao := '';
 
 end;
 
@@ -152,7 +150,7 @@ begin
   operacao := '+-';
   limpaDisplay();
 
-  EditDisplay.Text := FloatToStr(valor);
+  EditDisplay.Text := IntToStr(valor);
 end;
 
 procedure TForm2.BtnMenosClick(Sender: TObject);
@@ -185,22 +183,6 @@ end;
 procedure TForm2.BtnOitoClick(Sender: TObject);
 begin
   adicionaCaractereNoDisplay('8');
-end;
-
-procedure TForm2.BtnPorcentagemClick(Sender: TObject);
-begin
-  Try
-    valor := StrToFloat(EditDisplay.Text);
-  except
-    valor := 0;
-  End;
-
-  valor := valor/100.0;
-
-  operacao := '+-';
-  limpaDisplay();
-
-  EditDisplay.Text := FloatToStr(valor);
 end;
 
 procedure TForm2.BtnQuatroClick(Sender: TObject);

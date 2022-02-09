@@ -2,7 +2,6 @@ object Form2: TForm2
   Left = 0
   Top = 0
   ActiveControl = BtnCE
-  BiDiMode = bdLeftToRight
   BorderIcons = [biSystemMenu]
   Caption = 'Calculadora'
   ClientHeight = 332
@@ -14,7 +13,6 @@ object Form2: TForm2
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  ParentBiDiMode = False
   PixelsPerInch = 96
   TextHeight = 13
   object BtnCE: TButton
@@ -42,7 +40,6 @@ object Form2: TForm2
     Height = 49
     Caption = '%'
     TabOrder = 2
-    OnClick = BtnPorcentagemClick
   end
   object BtnSoma: TButton
     Left = 197
@@ -51,7 +48,6 @@ object Form2: TForm2
     Height = 49
     Caption = '+'
     TabOrder = 3
-    OnClick = BtnSomaClick
   end
   object BtnSete: TButton
     Left = 8
@@ -60,7 +56,6 @@ object Form2: TForm2
     Height = 49
     Caption = '7'
     TabOrder = 4
-    OnClick = BtnSeteClick
   end
   object BtnOito: TButton
     Left = 71
@@ -69,7 +64,6 @@ object Form2: TForm2
     Height = 49
     Caption = '8'
     TabOrder = 5
-    OnClick = BtnOitoClick
   end
   object BtnNove: TButton
     Left = 134
@@ -78,7 +72,6 @@ object Form2: TForm2
     Height = 49
     Caption = '9'
     TabOrder = 6
-    OnClick = BtnNoveClick
   end
   object BtnMenos: TButton
     Left = 197
@@ -87,7 +80,6 @@ object Form2: TForm2
     Height = 49
     Caption = '-'
     TabOrder = 7
-    OnClick = BtnMenosClick
   end
   object BtnQuatro: TButton
     Left = 8
@@ -96,7 +88,6 @@ object Form2: TForm2
     Height = 49
     Caption = '4'
     TabOrder = 8
-    OnClick = BtnQuatroClick
   end
   object BtnCinco: TButton
     Left = 71
@@ -105,7 +96,6 @@ object Form2: TForm2
     Height = 49
     Caption = '5'
     TabOrder = 9
-    OnClick = BtnCincoClick
   end
   object BtnSeis: TButton
     Left = 134
@@ -114,7 +104,6 @@ object Form2: TForm2
     Height = 49
     Caption = '6'
     TabOrder = 10
-    OnClick = BtnSeisClick
   end
   object BtnMulti: TButton
     Left = 197
@@ -123,7 +112,6 @@ object Form2: TForm2
     Height = 49
     Caption = 'x'
     TabOrder = 11
-    OnClick = BtnMultiClick
   end
   object BtnUm: TButton
     Left = 8
@@ -159,7 +147,6 @@ object Form2: TForm2
     Height = 49
     Caption = #247
     TabOrder = 15
-    OnClick = BtnDivClick
   end
   object BtnZero: TButton
     Left = 8
@@ -177,7 +164,6 @@ object Form2: TForm2
     Height = 49
     Caption = #177
     TabOrder = 17
-    OnClick = BtnMaisOuMenosClick
   end
   object BtnVirgula: TButton
     Left = 134
@@ -186,7 +172,6 @@ object Form2: TForm2
     Height = 49
     Caption = ','
     TabOrder = 18
-    OnClick = BtnVirgulaClick
   end
   object BtnIgual: TButton
     Left = 197
@@ -195,7 +180,6 @@ object Form2: TForm2
     Height = 49
     Caption = '='
     TabOrder = 19
-    OnClick = BtnIgualClick
   end
   object EditDisplay: TEdit
     Left = 32

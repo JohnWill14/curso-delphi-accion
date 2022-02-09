@@ -1,0 +1,156 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  ActiveControl = BtnCE
+  Caption = 'Form2'
+  ClientHeight = 406
+  ClientWidth = 424
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object NumberBox1: TNumberBox
+    Left = 96
+    Top = 16
+    Width = 209
+    Height = 21
+    Alignment = taRightJustify
+    DoubleBuffered = False
+    Enabled = False
+    ParentDoubleBuffered = False
+    TabOrder = 0
+  end
+  object BtnCE: TButton
+    Left = 80
+    Top = 51
+    Width = 57
+    Height = 49
+    Caption = 'CE'
+    TabOrder = 1
+  end
+  object BtnBackSpace: TButton
+    Left = 143
+    Top = 51
+    Width = 57
+    Height = 49
+    Caption = #8592
+    TabOrder = 2
+  end
+  object BtnPorcentagem: TButton
+    Left = 206
+    Top = 51
+    Width = 57
+    Height = 49
+    Caption = '%'
+    TabOrder = 3
+  end
+  object BtnSoma: TButton
+    Left = 269
+    Top = 51
+    Width = 57
+    Height = 49
+    Caption = '+'
+    TabOrder = 4
+  end
+  object BtnSete: TButton
+    Left = 80
+    Top = 106
+    Width = 57
+    Height = 49
+    Caption = '7'
+    TabOrder = 5
+  end
+  object BtnOito: TButton
+    Left = 143
+    Top = 106
+    Width = 57
+    Height = 49
+    Caption = '8'
+    TabOrder = 6
+  end
+  object BtnNove: TButton
+    Left = 206
+    Top = 106
+    Width = 57
+    Height = 49
+    Caption = '9'
+    TabOrder = 7
+  end
+  object BtnMenos: TButton
+    Left = 269
+    Top = 106
+    Width = 57
+    Height = 49
+    Caption = '-'
+    TabOrder = 8
+  end
+  object BtnQuatro: TButton
+    Left = 80
+    Top = 161
+    Width = 57
+    Height = 49
+    Caption = '4'
+    TabOrder = 9
+  end
+  object BtnCinco: TButton
+    Left = 143
+    Top = 161
+    Width = 57
+    Height = 49
+    Caption = '5'
+    TabOrder = 10
+  end
+  object BtnSeis: TButton
+    Left = 206
+    Top = 161
+    Width = 57
+    Height = 49
+    Caption = '6'
+    TabOrder = 11
+  end
+  object BtnMulti: TButton
+    Left = 269
+    Top = 161
+    Width = 57
+    Height = 49
+    Caption = 'x'
+    TabOrder = 12
+  end
+  object Button1: TButton
+    Left = 80
+    Top = 224
+    Width = 57
+    Height = 49
+    Caption = '4'
+    TabOrder = 13
+  end
+  object Button2: TButton
+    Left = 143
+    Top = 224
+    Width = 57
+    Height = 49
+    Caption = '5'
+    TabOrder = 14
+  end
+  object Button3: TButton
+    Left = 206
+    Top = 224
+    Width = 57
+    Height = 49
+    Caption = '6'
+    TabOrder = 15
+  end
+  object Button4: TButton
+    Left = 269
+    Top = 224
+    Width = 57
+    Height = 49
+    Caption = 'x'
+    TabOrder = 16
+  end
+end
