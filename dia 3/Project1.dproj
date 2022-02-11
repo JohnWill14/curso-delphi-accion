@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{3E46E247-67E0-4D69-9892-079005312464}</ProjectGuid>
+        <ProjectGuid>{EE88430B-D213-446F-8EAF-0DBD19757D3B}</ProjectGuid>
         <ProjectVersion>19.2</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <Base>True</Base>
@@ -98,7 +98,7 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit2.pas">
+        <DCCReference Include="Calculadora.pas">
             <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>

@@ -1,0 +1,81 @@
+unit Unit3;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Menus,
+  Vcl.ComCtrls, ShellAPI;
+
+type
+  TForm3 = class(TForm)
+    Panel2: TPanel;
+    RichEdit: TRichEdit;
+    MainMenu1: TMainMenu;
+    Arquivos1: TMenuItem;
+    Novo1: TMenuItem;
+    Novo2: TMenuItem;
+    Salvar1: TMenuItem;
+    N1: TMenuItem;
+    Exit1: TMenuItem;
+    Editar1: TMenuItem;
+    Localizar1: TMenuItem;
+    Substituir1: TMenuItem;
+    Formatar1: TMenuItem;
+    FormatarFonte2: TMenuItem;
+    Imprimir1: TMenuItem;
+    OpenDialog: TOpenDialog;
+    SaveDialog: TSaveDialog;
+    procedure Exit1Click(Sender: TObject);
+    procedure Novo1Click(Sender: TObject);
+    procedure Novo2Click(Sender: TObject);
+    procedure Salvar1Click(Sender: TObject);
+    procedure Imprimir1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+  nomeArquivo: string;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm3.Exit1Click(Sender: TObject);
+begin
+  Form3.Close;
+end;
+
+procedure TForm3.Imprimir1Click(Sender: TObject);
+begin
+  if OpenDialog.Execute then
+     ShellExecute(Handle, 'print',
+   PChar(OpenDialog.FileName ),
+   nil, nil, SW_HIDE) ;
+end;
+
+procedure TForm3.Novo1Click(Sender: TObject);
+begin
+  if(OpenDialog.Execute) then
+    begin
+      RichEdit.Lines.LoadFromFile(OpenDialog.FileName);
+      nomeArquivo := OpenDialog.FileName;
+    end;
+end;
+
+procedure TForm3.Novo2Click(Sender: TObject);
+begin
+  RichEdit.Lines.Clear;
+end;
+
+procedure TForm3.Salvar1Click(Sender: TObject);
+begin
+  if SaveDialog.Execute() then
+     RichEdit.Lines.SaveToFile(SaveDialog.FileName);
+end;
+
+end.

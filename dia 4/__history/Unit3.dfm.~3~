@@ -1,0 +1,109 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  ActiveControl = RichEdit
+  Caption = 'Form3'
+  ClientHeight = 349
+  ClientWidth = 507
+  Color = clWindow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel2: TPanel
+    Left = 0
+    Top = 0
+    Width = 507
+    Height = 349
+    Align = alClient
+    Color = clWindow
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 168
+    ExplicitTop = 168
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object RichEdit: TRichEdit
+      Left = 1
+      Top = 1
+      Width = 505
+      Height = 347
+      Align = alClient
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Lines.Strings = (
+        '')
+      ParentFont = False
+      TabOrder = 0
+      Zoom = 100
+      ExplicitLeft = 17
+      ExplicitTop = 2
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 16
+    Top = 80
+    object Arquivos1: TMenuItem
+      Caption = '&Arquivos'
+      object Novo1: TMenuItem
+        Caption = '&Abrir'
+        ShortCut = 16463
+        OnClick = Novo1Click
+      end
+      object Novo2: TMenuItem
+        Caption = '&Novo'
+        ShortCut = 16462
+        OnClick = Novo2Click
+      end
+      object Salvar1: TMenuItem
+        Caption = '&Salvar'
+        ShortCut = 16467
+        OnClick = Salvar1Click
+      end
+      object Imprimir1: TMenuItem
+        Caption = '&Imprimir'
+        ShortCut = 16457
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Exit1: TMenuItem
+        Caption = '&Exit'
+        OnClick = Exit1Click
+      end
+    end
+    object Editar1: TMenuItem
+      Caption = '&Editar'
+      object Localizar1: TMenuItem
+        Caption = '&Localizar'
+        ShortCut = 16454
+      end
+      object Substituir1: TMenuItem
+        Caption = '&Substituir'
+      end
+    end
+    object Formatar1: TMenuItem
+      Caption = '&Formatar'
+      object FormatarFonte2: TMenuItem
+        Caption = '&Formatar Fonte'
+      end
+    end
+  end
+  object OpenDialog: TOpenDialog
+    Left = 88
+    Top = 80
+  end
+  object SaveDialog: TSaveDialog
+    DefaultExt = '*.txt'
+    Left = 184
+    Top = 80
+  end
+end
