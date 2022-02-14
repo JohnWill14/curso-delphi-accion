@@ -172,10 +172,7 @@ begin
       RichEdit.SelStart := SelPos-1;
       RichEdit.SelLength := Length(ReplaceDialog1.FindText);
       { Replace selected text with ReplaceText }
-      //RichEdit.SelText := ReplaceDialog1.ReplaceText;
-      RichEdit.SelText := StringReplace(RichEdit.Lines.Text,
-           RichEdit.SelText,
-           ReplaceDialog1.ReplaceText, [rfReplaceAll]);
+      RichEdit.SelText := ReplaceDialog1.ReplaceText;
     end
 
 end;

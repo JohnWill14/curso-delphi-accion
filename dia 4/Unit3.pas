@@ -160,21 +160,15 @@ with RichEdit do
 end;
 
 procedure TForm3.ReplaceDialog1Replace(Sender: TObject);
-var
-  SelPos: Integer;
 begin
-  with TReplaceDialog(Sender) do
-  ReplaceDialog1.Execute();
-  SelPos := Pos(ReplaceDialog1.FindText, RichEdit.Lines.Text);
-
-  if SelPos > 0 then
+    if frReplaceAll in ReplaceDialog1.Options then
     begin
-      RichEdit.SelStart := SelPos-1;
-      RichEdit.SelLength := Length(ReplaceDialog1.FindText);
-      { Replace selected text with ReplaceText }
-      RichEdit.SelText := ReplaceDialog1.ReplaceText;
+     RichEdit.Lines.Text := StringReplace(RichEdit.Lines.Text,
+           ReplaceDialog1.FindText,
+           ReplaceDialog1.ReplaceText, [rfReplaceAll]);
     end
-
+    else
+      RichEdit.SelText := ReplaceDialog1.ReplaceText;
 end;
 
 procedure TForm3.Salvar1Click(Sender: TObject);

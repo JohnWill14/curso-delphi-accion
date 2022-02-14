@@ -126,6 +126,7 @@ object Form3: TForm3
     Top = 96
   end
   object ReplaceDialog1: TReplaceDialog
+    Options = [frDown, frReplaceAll]
     OnFind = ReplaceDialog1Find
     OnReplace = ReplaceDialog1Replace
     Left = 248
