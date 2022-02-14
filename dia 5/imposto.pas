@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.NumberBox;
 
 type
   TForm3 = class(TForm)
@@ -13,6 +13,10 @@ type
     Button1: TButton;
     Label2: TLabel;
     LabelCustoConsumidor: TLabel;
+    NumberBoxDistribuidor: TNumberBox;
+    NumberBoxPercentual: TNumberBox;
+    LabelDistribuidor: TLabel;
+    Label3: TLabel;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -35,8 +39,8 @@ var
   percentagemDoImposto: Double;
 begin
   custoDeFabrica := StrToFloat(EditCustoFabrica.Text);
-  percentagemDoDistribuidor := 0.28*custoDeFabrica;
-  percentagemDoImposto := 0.45*custoDeFabrica;
+  percentagemDoDistribuidor := (NumberBoxDistribuidor.Value/100)*custoDeFabrica;
+  percentagemDoImposto := (NumberBoxPercentual.Value/100)*custoDeFabrica;
   custoConsumidor := custoDeFabrica+percentagemDoDistribuidor+percentagemDoImposto;
 
   LabelCustoConsumidor.Caption := formatfloat('R$ #,##0', custoConsumidor);
