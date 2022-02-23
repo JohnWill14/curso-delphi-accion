@@ -1,0 +1,35 @@
+unit Produtos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UnitFormPadraoAbstract, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TFormPadraoAbstract1 = class(TFormPadraoAbstract)
+    Label1: TLabel;
+    EditId: TEdit;
+    Label2: TLabel;
+    EditDescSimple: TEdit;
+    Label3: TLabel;
+    EditDescCompleta: TEdit;
+    Label4: TLabel;
+    EditValorVenda: TEdit;
+    Label5: TLabel;
+    ComboBox1: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPadraoAbstract1: TFormPadraoAbstract1;
+
+implementation
+
+{$R *.dfm}
+
+end.

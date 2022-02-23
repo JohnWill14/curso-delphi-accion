@@ -1,0 +1,49 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 356
+  ClientWidth = 485
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Visible = True
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 240
+    Top = 184
+    object HelpSobre1: TMenuItem
+      Caption = 'Help/Sobre'
+      object Help1: TMenuItem
+        Caption = 'Help'
+        OnClick = Help1Click
+      end
+      object Help2: TMenuItem
+        Caption = 'Sobre'
+        OnClick = Help2Click
+      end
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+        OnClick = Sair1Click
+      end
+      object Sair2: TMenuItem
+        Caption = '-'
+      end
+      object Cascata1: TMenuItem
+        Caption = 'Cascata'
+      end
+    end
+    object HelpSobre2: TMenuItem
+      Caption = 'Mudar Cor Sobre'
+      OnClick = HelpSobre2Click
+    end
+  end
+end

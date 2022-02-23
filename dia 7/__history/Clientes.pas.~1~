@@ -1,0 +1,25 @@
+unit Clientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UnitFormPadraoAbstract, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TFormPadraoAbstract3 = class(TFormPadraoAbstract)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPadraoAbstract3: TFormPadraoAbstract3;
+
+implementation
+
+{$R *.dfm}
+
+end.

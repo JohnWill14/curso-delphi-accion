@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/02/14 13:55:38.000.883,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 14:06:28.000.826,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 14:13:04.000.780,C:\Users\FCV\Desktop\curso derfii\dia 7\UnitFormPadraoAbstract.pas=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 14:13:04.000.780,C:\Users\FCV\Desktop\curso derfii\dia 7\UnitFormPadraoAbstract.dfm=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2022/02/16 14:34:28.000.126,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 14:36:44.000.059,C:\Users\FCV\Desktop\curso derfii\dia 7\UnitPrincipal.pas=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 14:36:44.000.059,C:\Users\FCV\Desktop\curso derfii\dia 7\UnitPrincipal.dfm=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2022/02/16 15:22:30.000.251,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 15:22:38.000.293,C:\Users\FCV\Desktop\curso derfii\dia 7\Clientes.dfm=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2022/02/16 15:22:38.000.293,C:\Users\FCV\Desktop\curso derfii\dia 7\Clientes.pas=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/16 15:38:22.000.558,C:\Users\FCV\Desktop\curso derfii\dia 7\Cursos.dproj=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/02/16 15:40:08.000.715,=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 15:40:31.000.594,C:\Users\FCV\Desktop\curso derfii\dia 7\Produtos.dfm=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.dfm</Transaction>
+    <Transaction>2022/02/16 15:40:31.000.594,C:\Users\FCV\Desktop\curso derfii\dia 7\Produtos.pas=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 15:52:38.000.621,=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 15:52:49.000.389,C:\Users\FCV\Desktop\curso derfii\dia 7\Fornecedores.dfm=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.dfm</Transaction>
+    <Transaction>2022/02/16 15:52:49.000.389,C:\Users\FCV\Desktop\curso derfii\dia 7\Fornecedores.pas=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 16:02:36.000.867,=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 16:26:56.000.128,C:\Users\FCV\Desktop\curso derfii\dia 7\Vendedores.dfm=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.dfm</Transaction>
+    <Transaction>2022/02/16 16:26:56.000.128,C:\Users\FCV\Desktop\curso derfii\dia 7\Vendedores.pas=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 16:48:03.000.064,=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 16:59:35.000.538,C:\Users\FCV\Desktop\curso derfii\dia 7\Login.pas=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.pas</Transaction>
+    <Transaction>2022/02/16 16:59:35.000.538,C:\Users\FCV\Desktop\curso derfii\dia 7\Login.dfm=C:\Users\FCV\Desktop\curso derfii\dia 7\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

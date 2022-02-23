@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/02/14 13:55:38.000.883,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/15 15:20:28.674,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/15 15:24:31.878,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2022/02/15 15:27:45.002,C:\Users\FCV\Desktop\curso derfii\dia 6\sobreUnit.pas=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2022/02/15 15:27:45.002,C:\Users\FCV\Desktop\curso derfii\dia 6\sobreUnit.dfm=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2022/02/15 15:27:59.928,C:\Users\FCV\Desktop\curso derfii\dia 6\principal.pas=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/02/15 15:27:59.928,C:\Users\FCV\Desktop\curso derfii\dia 6\principal.dfm=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2022/02/15 15:28:47.462,C:\Users\FCV\Desktop\curso derfii\dia 6\Project1.dproj=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/02/15 15:30:14.661,=C:\Users\FCV\Desktop\curso derfii\dia 6\Unit1.pas</Transaction>
+    <Transaction>2022/02/15 15:30:26.976,C:\Users\FCV\Desktop\curso derfii\dia 6\helpUnit.pas=C:\Users\FCV\Desktop\curso derfii\dia 6\Unit1.pas</Transaction>
+    <Transaction>2022/02/15 15:30:26.976,C:\Users\FCV\Desktop\curso derfii\dia 6\helpUnit.dfm=C:\Users\FCV\Desktop\curso derfii\dia 6\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

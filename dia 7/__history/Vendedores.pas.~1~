@@ -1,0 +1,25 @@
+unit Vendedores;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UnitFormPadraoAbstract, Vcl.StdCtrls,
+  Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TFormPadraoAbstract1 = class(TFormPadraoAbstract)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPadraoAbstract1: TFormPadraoAbstract1;
+
+implementation
+
+{$R *.dfm}
+
+end.

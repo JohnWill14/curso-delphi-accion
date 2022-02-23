@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/02/23 14:22:20.158,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/02/23 14:23:17.737,=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/02/23 14:28:15.638,C:\Users\FCV\Desktop\curso derfii\dia 10\UnitConnection.dfm=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2022/02/23 14:28:15.638,C:\Users\FCV\Desktop\curso derfii\dia 10\UnitConnection.pas=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/02/23 14:28:42.724,C:\Users\FCV\Desktop\curso derfii\dia 10\Tela.pas=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2022/02/23 14:28:42.724,C:\Users\FCV\Desktop\curso derfii\dia 10\Tela.dfm=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Unit5.dfm</Transaction>
+    <Transaction>2022/02/23 14:36:59.206,C:\Users\FCV\Desktop\curso derfii\dia 10\Banco.dproj=C:\Users\FCV\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Tela.pas"/>
+    <File Path="Tela.dfm"/>
+    <File Path="UnitConnection.pas"/>
+    <File Path="UnitConnection.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,50 @@
+unit Tela;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UnitConnection, Data.DB, Vcl.Grids,
+  Vcl.DBGrids, Datasnap.DBClient, Datasnap.Provider, Vcl.ComCtrls, Vcl.StdCtrls,
+  Vcl.Buttons;
+
+type
+  TForm5 = class(TForm)
+    DataSetProvider1: TDataSetProvider;
+    ClientDataSet1: TClientDataSet;
+    DataSource1: TDataSource;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    DBGrid1: TDBGrid;
+    TabSheet2: TTabSheet;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    Label1: TLabel;
+    Label2: TLabel;
+    EditPesquisa: TEdit;
+    BtnPesquisar: TBitBtn;
+    Label3: TLabel;
+    EditDescricao: TEdit;
+    BitBtn3: TBitBtn;
+    procedure BitBtn3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form5: TForm5;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm5.BitBtn3Click(Sender: TObject);
+begin
+
+  ClientDataSet1.Close;
+  ClientDataSet1.Insert;
+end;
+
+end.

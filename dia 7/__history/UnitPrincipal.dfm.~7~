@@ -1,0 +1,53 @@
+object FormPrincipal: TFormPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'SPC - Sistema de controle de produtos'
+  ClientHeight = 499
+  ClientWidth = 711
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIForm
+  Menu = MainMenu1
+  OldCreateOrder = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 352
+    Top = 256
+    object Cliente1: TMenuItem
+      Caption = 'Cliente'
+      OnClick = Cliente1Click
+    end
+    object Cliente2: TMenuItem
+      Caption = 'Produto'
+      OnClick = Cliente2Click
+    end
+    object Fornecedor1: TMenuItem
+      Caption = 'Fornecedor'
+      OnClick = Fornecedor1Click
+    end
+    object Vendedor1: TMenuItem
+      Caption = 'Vendedor'
+    end
+    object Janela1: TMenuItem
+      Caption = 'Janela'
+      object Ladoalado1: TMenuItem
+        Caption = 'Lado a lado'
+        OnClick = Ladoalado1Click
+      end
+      object Ladoalado2: TMenuItem
+        Caption = 'Cascata'
+        OnClick = Ladoalado2Click
+      end
+    end
+    object exit1: TMenuItem
+      Caption = 'exit'
+      OnClick = exit1Click
+    end
+  end
+end

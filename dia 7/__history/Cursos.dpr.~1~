@@ -1,0 +1,16 @@
+program Cursos;
+
+uses
+  Vcl.Forms,
+  UnitFormPadraoAbstract in 'UnitFormPadraoAbstract.pas' {FormPadraoAbstract},
+  UnitPrincipal in 'UnitPrincipal.pas' {FormPrincipal},
+  Clientes in 'Clientes.pas' {FormCliente};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.Run;
+end.
